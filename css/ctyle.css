@@ -225,3 +225,102 @@
   color: #aaa;
   padding: 0 1rem;
 }
+/* Top Creators Section */
+.top-creators {
+  background-color: #1b1b1b;
+  color: white;
+  padding: 4rem 0;
+}
+
+.top-creators .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.creators-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.creators-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.creators-header p {
+  color: #ccc;
+}
+
+.view-rankings {
+  background: none;
+  border: 2px solid #8b46ff;
+  color: white;
+  border-radius: 12px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-rankings:hover {
+  background-color: #8b46ff;
+}
+
+/* Creator Cards */
+.creator-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.creator-card {
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  position: relative;
+}
+
+.rank {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #333;
+  color: #ccc;
+  font-size: 0.9rem;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creator-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.creator-info h3 {
+  font-size: 1.1rem;
+}
+
+.creator-info p {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.creator-info span {
+  color: white;
+  font-weight: 600;
+}
