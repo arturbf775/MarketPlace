@@ -1,0 +1,227 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111111;
+  color: white;
+  padding: 1rem 0;
+}
+
+.navbar .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.logo span {
+  font-weight: 400;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.signup-btn {
+  background-color: #8b46ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Hero section */
+.hero {
+  background-color: #1b1b1b;
+  color: white;
+  padding: 4rem 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1 1 45%;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.get-started {
+  background-color: #8b46ff;
+  color: white;
+  border: none;
+  padding: 0.9rem 2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.stats h3 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.stats p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* Hero Image */
+.hero-image {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-placeholder {
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 400px;
+}
+
+.image-placeholder img {
+  width: 100%;
+  display: block;
+}
+
+.image-caption {
+  padding: 1rem;
+}
+
+.image-caption h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.image-caption p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+/* Trending Section */
+.trending {
+  background-color: #1b1b1b;
+  color: white;
+  padding: 4rem 0;
+}
+
+.trending .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trending h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.trending p {
+  color: #ccc;
+  margin-bottom: 2.5rem;
+}
+
+/* Collection Cards */
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.collection-card {
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 31%;
+  padding-bottom: 1.2rem;
+}
+
+.collection-card .main-img {
+  width: 100%;
+  display: block;
+}
+
+.small-images {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1rem;
+}
+
+.small-images img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.count {
+  background-color: #8b46ff;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+}
+
+.collection-card h3 {
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  margin-top: 0.5rem;
+}
+
+.creator {
+  font-size: 0.9rem;
+  color: #aaa;
+  padding: 0 1rem;
+}
